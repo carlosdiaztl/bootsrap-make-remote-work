@@ -1,10 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta
+          name="author"
+          content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+        />
+        <meta name="generator" content="Hugo 0.72.0" />
+        <title>Carousel Template · Bootstrap</title>
+
+        <link
+          rel="canonical"
+          href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/"
+        />
+
+        <!-- Bootstrap core CSS -->
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+          integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+          integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossorigin="anonymous"
+        ></script>
+
+        <style>
+          
+
+          @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }
+          /* GLOBAL STYLES
+        --------------------------------------------- */
+          /* Padding below the footer and lighter body text */
+          body {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            
+          }
+          /* Center align the text within the three columns below the carousel */
+          .marketing .col-lg-4 {
+            margin-bottom: 1.5rem;
+            text-align: center;
+          }
+
+          .marketing h2 {
+            font-weight: 400;
+          }
+
+          .marketing .col-lg-4 p {
+            margin-right: 0.75rem;
+            margin-left: 0.75rem;
+          }
+
+         
+
+          @media (min-width: 40em) {
+            
+            
+
+            .featurette-heading {
+              font-size: 50px;
+            }
+          }
+
+          @media (min-width: 62em) {
+            .featurette-heading {
+              margin-top: 7rem;
+            }
+          }
+        </style>
+       
+      </head>
+
+      <body>
+        <header>
+          <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+            <div class="container-fluid">
+              <h2 class="" href="#"><strong>snap </strong> </h2>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Features
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Company
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Careers </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav ">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="btn btn-white rounded rounded-pill border" href="#">Register</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main>
+          <div class="container marketing">
+            <div class="row featurette pt-1 mt-2">
+              <div class="col-md-7">
+                <h1 class="featurette-heading">
+                    <strong>
+                        Make
+                        <br>
+                  remote work
+
+                    </strong>                
+                </h1>
+                <div class="container pt-4 pl-0 pr-5">
+                    <small class="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, necessitatibus tempora culpa molestiae beatae consectetur perspiciatis aliquam ipsum asperiores doloribus, eos quis id voluptas, enim laborum maiores? Odit, placeat ipsum?
+                    </small>
+
+                </div>
+               
+                <button class="btn btn-dark mt-4"> Learn more</button>
+              </div>
+              <div class="col-md-5 pt-5 mt-5">
+                <!-- class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" -->
+                <img   
+                width="360"
+                height="400" src="https://www.snapclarity.com/wp-content/uploads/Working-from-home-with-kids.jpg" alt="">      
+              </div>
+            </div>        
+          </div>      
+          <footer class="container">   
+            <div class="col-6 d-flex justify-content-round">
+                <span class="col-3 pl-2">
+                    databiz
+                </span>
+                <span class="col-3 pl-2">
+                    databiz
+                </span>
+                <span class="col-3 pl-2">
+                    databiz
+                </span>
+                <span class="col-3 pl-2">
+                    databiz
+                </span>
+            </div>        
+               
+                
+          </footer>
+        </main>
+      </body>
+    </html>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/script.js"></script>
 </html>
